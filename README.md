@@ -1,4 +1,3 @@
-![Screenshot](splash.png)
 <img src="splash.png" width="128"/>
-![Screenshot](homescreen.png)
-![Screenshot](productdetail.png)
+<img src="homescreen.png" width="128"/>
+<img src="productdetail.png" width="128"/>
