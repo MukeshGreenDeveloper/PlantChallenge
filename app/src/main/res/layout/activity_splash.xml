@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutGreenBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="@dimen/martin_top"
+        android:background="@drawable/curved_left_top_bottom_green"
+        android:paddingStart="8dp"
+        android:paddingTop="300dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/welcome_to_nplant_world"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWelcome"
+            android:layout_marginStart="24dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/product_infor"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/layoutGreenBG"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/gradient_green_bg" />
+
+    <LinearLayout
+        android:id="@+id/getStartedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutGreenBG"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/curved_right_top_bottom_white"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="end|center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Get Started"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_back" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/getStartedLayout"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/curved_left_top_green"
+        android:layout_width="240dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/hidden_plants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/martin_top"
+        android:paddingTop="24dp"
+        android:visibility="gone"
+        android:src="@drawable/plant_world_text" />
+
+    <mukesh.plantcallenge.VerticalTextView
+        android:id="@+id/textPlantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-35dp"
+        android:fontFamily="@font/poppinsblack"
+        android:rotation="180"
+        android:text="@string/plant_world"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:src="@drawable/plant_one" />
+</RelativeLayout>

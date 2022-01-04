@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Plant Challenge</string>
+    <string name="product_infor">Feel Fresh a with plant Worlds.\nit will enhance your living space!</string>
+    <string name="welcome_to_nplant_world">Welcome to\nPlant World</string>
+    <string name="plant_world">PLANT WORLD</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="find_the_perfect_plant_for_your_home">Find the Perfect plant for your home</string>
+    <string name="easy_to_care_of_grows_well_in_any_environment">Easy to care of grows well in any environment.</string>
+    <string name="bonsai_info">Perfect for beginners. Grows best in light environment.</string>
+    <string name="bonsai_plant">BONSAI PLANT</string>
+    <string name="height">Height</string>
+    <string name="temperature">Temperature</string>
+    <string name="light">Light</string>
+    <string name="details">Details</string>
+    <string name="buy">BUY</string>
+</resources>
